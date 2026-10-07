@@ -5,7 +5,8 @@ Artwork for my Nuvio collections, served free through the jsDelivr CDN.
 | Folder | Content | Size |
 | --- | --- | --- |
 | `livesports/covers/` | Live Sports poster covers | 1000×1414 (2:3) |
-| `livesports/gifs/v2/` | Live Sports focus GIFs: grey→colour transition plays once, then holds on the last frame | 540×764 (2:3) |
+| `livesports/gifs/v3/` | Live Sports focus GIFs: ~0.2 s grey→colour transition (20 ms per frame, no pause at the start) plays once, then holds on the last frame | 540×764 (2:3) |
+| `livesports/gifs/v2/` | Previous Live Sports focus GIFs (~0.47 s transition), kept so old URLs still work | 540×764 (2:3) |
 | `hover/v1/<collection>/` | Hover GIFs for Kaptain folders: 0.2 s crossfade cover → hover art, plays once, holds (Spotlight also has a pinned `-cover.jpg`) | 341×512 poster / 512×288 landscape |
 | `fixes/` | 16:9 replacements for square covers (Lucasfilm, MGM+) | 1000×563 |
 
