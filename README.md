@@ -1,16 +1,20 @@
-# nuvio-livesports
+# nuvio-art
 
-Artwork for the **Live Sports** collection in Nuvio.
+Artwork for my Nuvio collections, served free through the jsDelivr CDN.
 
-- `covers/` – static poster covers (1000×1414, 2:3)
-- `gifs/` – animated focus/hover GIFs (540×764, 2:3)
+| Folder | Content | Size |
+| --- | --- | --- |
+| `livesports/covers/` | Live Sports poster covers | 1000×1414 (2:3) |
+| `livesports/gifs/` | Live Sports animated focus GIFs | 540×764 (2:3) |
+| `fixes/` | 16:9 replacements for square covers (Lucasfilm, MGM+) | 1000×563 |
 
-Served through jsDelivr:
+URL pattern:
 
 ```
-https://cdn.jsdelivr.net/gh/MatizS27/nuvio-livesports@main/covers/<sport>.jpg
-https://cdn.jsdelivr.net/gh/MatizS27/nuvio-livesports@main/gifs/<sport>.gif
+https://cdn.jsdelivr.net/gh/MatizS27/nuvio-art@main/<path>
 ```
 
-To change an image, replace the file with the same name and push. jsDelivr refreshes `@main` within ~12 h
-(or immediately via `https://purge.jsdelivr.net/gh/MatizS27/nuvio-livesports@main/<path>`).
+The repo must stay **public**: raw/jsDelivr URLs of a private repo return 404.
+
+To change an image, overwrite the file with the same name and push. jsDelivr refreshes `@main`
+within ~12 h, or right away by opening `https://purge.jsdelivr.net/gh/MatizS27/nuvio-art@main/<path>`.
